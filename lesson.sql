@@ -59,15 +59,6 @@ skypro=# SELECT * FROM  employee;
   2 | Alexandr   | Popov     | man    |  28
 (2 строки)
 
-
-skypro=#  SELECT * FROM  employee;
- id | first_name | last_name | gender | age
-----+------------+-----------+--------+-----
-  1 | Alexandr   | Popov     | man    |  28
-  2 | Alexandr   | Popov     | man    |  28
-(2 строки)
-
-
 skypro=# INSERT INTO employee (
 skypro(# first_name, last_name, gender, age)
 skypro-# VALUES ('Konstantin', 'Ivanov', 'man', 20);
